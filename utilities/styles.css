@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: chartreuse;
+}
+
+.my-skills, .education, .contact-me {
+  display: inline-block;
+  padding: 2px;
+}
+
+.my-skills a, .education a, .contact-me a {
+  color: white;
+  text-decoration: none;
+}/*# sourceMappingURL=styles.css.map */
