@@ -4,57 +4,22 @@
   box-sizing: border-box;
 }
 
-/*
-.first-part {
-background-color: #AFE1AF;
-display: flex;
-align-items: flex-start;
-}
-
-.header {
-    display: flex;
-    justify-content: flex-start;
-    display: inline-block;
-}
-
-
-.my-skills {
-    margin-left: 15px;
-}
-
-.my-skills, .education, .contact-me {
-display: inline-block;
-margin-right: 95px;
-}
-
-.my-skills a, .education a, .contact-me a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
-
-img {
-height: 100%;
-width: 100%;
-object-fit: contain;    
-}
-
-.my-pic {
-height: 760px;
- } */
 .first-part {
   background-color: #AFE1AF;
   display: flex;
   align-items: flex-start;
+  padding-bottom: 30%;
+  flex-direction: row-reverse;
 }
 
-.header {
+.menu-header {
   display: flex;
-  justify-content: flex-start;
-  display: inline-block;
+  justify-content: flex-end;
+  font-size: 18px;
 }
 
 .my-skills {
-  margin-left: 15px;
+  margin-left: 5px;
 }
 
 .my-skills, .education, .contact-me {
@@ -72,8 +37,15 @@ img {
   width: 100%;
   -o-object-fit: contain;
      object-fit: contain;
+  border-radius: 10%;
+  opacity: 85%;
+  margin-top: 40%;
 }
 
 .my-pic {
-  height: 760px;
+  display: block;
+  display: flex;
+  height: 300px;
+  margin-top: 200px;
+  margin-right: 90px;
 }/*# sourceMappingURL=styles.css.map */
