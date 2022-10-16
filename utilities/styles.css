@@ -4,27 +4,35 @@
   box-sizing: border-box;
 }
 
-.first-part {
-  background-color: #AFE1AF;
+[class*=col-] {
+  padding: 15px;
+  /*   border: 1px solid red;*/
+  width: 100%;
+}
+
+.row::after {
+  content: "";
+  clear: both;
   display: flex;
-  align-items: flex-start;
-  padding-bottom: 30%;
   flex-direction: row-reverse;
 }
 
-.menu-header {
-  display: flex;
-  justify-content: flex-end;
-  font-size: 18px;
+.first-part {
+  background-color: #AFE1AF;
+  /*padding-bottom: 30%;*/
 }
 
-.my-skills {
-  margin-left: 5px;
+.menu-header {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: 10%;
+  padding-left: 10%;
+  display: flex;
+  justify-content: space-around;
 }
 
 .my-skills, .education, .contact-me {
   display: inline-block;
-  margin-right: 95px;
 }
 
 .my-skills a, .education a, .contact-me a {
@@ -39,13 +47,12 @@ img {
      object-fit: contain;
   border-radius: 10%;
   opacity: 85%;
-  margin-top: 40%;
+  /*margin-top: 40%;*/
 }
 
-.my-pic {
-  display: block;
+.introduction {
   display: flex;
-  height: 300px;
-  margin-top: 200px;
-  margin-right: 90px;
+  justify-content: center;
+  color: white;
+  margin-bottom: 10%;
 }/*# sourceMappingURL=styles.css.map */
