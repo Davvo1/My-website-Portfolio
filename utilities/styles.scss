@@ -22,7 +22,7 @@ $background-color: #AFE1AF;
    flex-direction: row-reverse;
  }
 
-.first-part {
+.first-page {
 background-color: #AFE1AF;
 /*padding-bottom: 30%;*/
 }
@@ -36,12 +36,12 @@ display: flex;
 justify-content: space-around;
 }
 
-.my-skills, .education, .contact-me {
+.about-me, .education, .contact-me {
     display: inline-block;
     
 }
 
-.my-skills a, .education a, .contact-me a {
+.about-me a, .education a, .contact-me a {
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
@@ -59,6 +59,30 @@ opacity: 85%;
     display: flex;
     justify-content: center;
     color: $own-color;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
  }
  
+
+ .description {
+    margin-top: 10%;
+    text-align: center;
+    color: rgb(65, 65, 65)
+ }
+
+ .skill-list {
+    margin-top: 5%;
+    text-align: start;
+ }
+ 
+ .my-skills {
+    margin-right: 7%;
+    text-align: center;
+ }
+ 
+.soft-skills {
+   margin-top: 5%;
+}
+ 
+.other-skills {
+    margin-top: 5%;
+}
