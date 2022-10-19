@@ -58,13 +58,13 @@ img {
 }
 
 .description {
-  margin-top: 10%;
+  margin-top: 5%;
   text-align: center;
   color: rgb(65, 65, 65);
 }
 
 .skill-list {
-  margin-top: 5%;
+  margin-top: 10%;
   text-align: start;
 }
 
@@ -73,10 +73,11 @@ img {
   text-align: center;
 }
 
-.soft-skills {
+.soft-skills, .other-skills {
   margin-top: 5%;
 }
 
-.other-skills {
-  margin-top: 5%;
+.about-me {
+  padding-left: 2%;
+  padding-right: 2%;
 }/*# sourceMappingURL=styles.css.map */
