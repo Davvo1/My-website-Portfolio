@@ -1,5 +1,6 @@
 $own-color: white;
 $background-color: #AFE1AF;
+$secondary-background: rgb(254, 248, 248);
 
 * {
     margin: 0;
@@ -22,8 +23,9 @@ $background-color: #AFE1AF;
    flex-direction: row-reverse;
  }
 
-.first-page {
-background-color: #AFE1AF;
+.colored-page {
+background-color: $background-color;
+color: $own-color;
 /*padding-bottom: 30%;*/
 }
 
@@ -36,12 +38,12 @@ display: flex;
 justify-content: space-around;
 }
 
-.about-me, .education, .contact-me {
+.about-me, .education, .contact-info {
     display: inline-block;
     
 }
 
-.about-me a, .education a, .contact-me a {
+.about-me a, .education a, .contact-info a {
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
@@ -66,7 +68,9 @@ opacity: 85%;
  .description {
     margin-top: 5%;
     text-align: center;
-    color: rgb(65, 65, 65)
+    color: rgb(65, 65, 65);
+    background-color: $secondary-background;
+
  }
 
  .skill-list {
@@ -86,4 +90,14 @@ opacity: 85%;
 .about-me {
    padding-left: 2%;
    padding-right: 2%;
+}
+
+.contact-me  {
+   margin-top: 7%;
+   /*text-align: center*/;
+}
+
+.socials {
+   display: inline-block;
+   width: 10%;
 }
