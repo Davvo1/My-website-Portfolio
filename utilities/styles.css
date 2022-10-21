@@ -19,21 +19,25 @@
 
 .colored-page {
   background-color: #AFE1AF;
-  color: white;
+  color: rgb(254, 248, 248);
   /*padding-bottom: 30%;*/
 }
 
 .menu-header {
   padding-top: 0;
   padding-bottom: 0;
-  padding-right: 10%;
-  padding-left: 10%;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
+  margin-bottom: 7%;
 }
 
 .about-me, .education, .contact-info {
   display: inline-block;
+}
+
+.education {
+  padding-left: 3%;
+  padding-right: 34%;
 }
 
 .about-me a, .education a, .contact-info a {
@@ -46,15 +50,14 @@ img {
   width: 100%;
   -o-object-fit: contain;
      object-fit: contain;
-  border-radius: 10%;
+  border-radius: 20%;
   opacity: 85%;
-  /*margin-top: 40%;*/
 }
 
 .introduction {
   display: flex;
   justify-content: center;
-  color: white;
+  color: rgb(254, 248, 248);
   margin-bottom: 5%;
 }
 
@@ -111,16 +114,47 @@ img {
   flex-wrap: wrap;
 }
 
-.form-row input[type=text] {
+.form-row input[type=text], .form-row input[type=email], .form-row textarea {
   background-color: #FFFFFF;
   border: 1px solid #D6D9DC;
   border-radius: 3px;
   width: 70%;
   padding: 2%;
   font-size: 14px;
+  align-self: center;
+  resize: none;
 }
 
 .form-row label {
   margin-top: 5%;
   margin-bottom: 1%;
+}
+
+.form-row input[type=text]:invalid, .form-row input[type=email]:invalid {
+  border: 1px solid #D55C5F;
+  color: #D55C5F;
+  box-shadow: none;
+}
+
+.form-row textarea {
+  font-style: "Helvetica" "Arial" "sans-serif";
+  margin-bottom: 5%;
+}
+
+.form-row button {
+  font-style: "Helvetica" "Arial" "sans-serif";
+  align-self: center;
+  width: 40%;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.form-row button:active {
+  opacity: 0.8;
+  transition: 0.15;
 }/*# sourceMappingURL=styles.css.map */
