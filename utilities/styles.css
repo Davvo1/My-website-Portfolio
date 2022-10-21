@@ -157,4 +157,53 @@ img {
 .form-row button:active {
   opacity: 0.8;
   transition: 0.15;
+}
+
+@media only screen and (min-width: 401px) {
+  .menu-header {
+    font-size: 20px;
+    margin-bottom: 2%;
+  }
+  img {
+    padding-bottom: 7%;
+  }
+  .education {
+    padding-left: 3%;
+    padding-right: 70%;
+  }
+  .introduction {
+    align-items: center;
+  }
+  .colored-page, .second-page {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .description {
+    padding-top: 4%;
+  }
+  .second-page p {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    font-size: 20px;
+  }
+  .second-page ul {
+    font-size: 20px;
+  }
+  .my-skills {
+    margin-left: 5%;
+    margin-bottom: 3%;
+  }
+  .form-row {
+    font-size: 20px;
+    width: 65%;
+    margin-left: 20%;
+  }
+  .linkedin, .instagram {
+    width: 10%;
+  }
+  .colored-page h3 {
+    padding-top: 3%;
+  }
 }/*# sourceMappingURL=styles.css.map */
