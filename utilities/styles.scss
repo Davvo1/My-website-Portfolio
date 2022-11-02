@@ -39,6 +39,10 @@ background-size: cover;
 /*padding-bottom: 30%;*/
 }
 
+.header {
+background-color: $own-color;
+}
+
 .menu-header {
 padding-top: 0;
 padding-bottom: 0;
@@ -50,17 +54,22 @@ margin-bottom: 7%;
 
 .about-me, .education, .contact-info {
     display: inline-block;
-}
+
+    a {
+         color: $own-color;
+         text-decoration: none;
+     }
+    }
+
+
+
 
 .education {
    padding-left: 3%;
    padding-right: 34%;
 }
 
-.about-me a, .education a, .contact-info a {
-    color: $own-color;
-    text-decoration: none;
-}
+
 
 img {
 height: 100%;
@@ -80,20 +89,22 @@ opacity: 95%;
  .description {
     padding-top: 5%;
     text-align: center;
-    color: rgb(65, 65, 65);
+    color: $own-color;
     background-color: $secondary-background;
-
  }
+
+ 
+.row {
+   background-color: $own-color;
+}
 
  .skill-list {
     margin-top: 10%;
     text-align: start;
-    color: $border-color   
+    color: $own-color;
  }
  
- .keyboard {
-   background-image: url(images/matrix.jpg);
- }
+
 
  .my-skills {
    padding-top: 2%;
@@ -111,7 +122,8 @@ opacity: 95%;
    padding-bottom: 5%;
    margin-bottom: 0;
   }
- 
+
+
 .about-me {
    padding-left: 2%;
    padding-right: 2%;
@@ -255,6 +267,7 @@ img {
  .my-skills {
    margin-left: 5%; 
    margin-bottom: 3%;
+   color: $own-color;
  }
 
  .form-row {
