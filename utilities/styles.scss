@@ -39,37 +39,30 @@ background-size: cover;
 /*padding-bottom: 30%;*/
 }
 
-.header {
-background-color: $own-color;
-}
-
 .menu-header {
 padding-top: 0;
 padding-bottom: 0;
 display: flex;
 justify-content: flex-start;
 margin-bottom: 7%;
+background-color: white;
+box-shadow:  0 4px 2px -4px #888888;
 }
 
 
 .about-me, .education, .contact-info {
     display: inline-block;
-
-    a {
-         color: $own-color;
-         text-decoration: none;
-     }
-    }
-
-
-
+}
 
 .education {
    padding-left: 3%;
    padding-right: 34%;
 }
 
-
+.about-me a, .education a, .contact-info a {
+    color: $own-color;
+    text-decoration: none;
+}
 
 img {
 height: 100%;
@@ -94,9 +87,7 @@ opacity: 95%;
  }
 
  
-.row {
-   background-color: $own-color;
-}
+
 
  .skill-list {
     margin-top: 10%;
@@ -207,11 +198,12 @@ opacity: 95%;
    padding-bottom: 3%;
    margin-top: 4%;
    margin-bottom: 4%;
+      color: #0476D0;
  }
 
 
 .form-row button:hover {
-background-color: black;
+background-color: #0476D0;
 color: $secondary-background;
 box-shadow: 3px 5px 10px $own-color;
 transition: 0.15;
@@ -267,7 +259,6 @@ img {
  .my-skills {
    margin-left: 5%; 
    margin-bottom: 3%;
-   color: $own-color;
  }
 
  .form-row {
