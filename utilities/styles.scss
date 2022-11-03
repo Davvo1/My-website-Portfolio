@@ -217,6 +217,14 @@ transition: 0.15;
    transition: 0.15; 
  }
 
+ @media only screen and (max-width: 500px) {
+   .parallax img {
+      height: 50%;
+      width: 50%;
+      object-fit: contain;
+   }
+ }
+
  @media only screen and (min-width: 501px) {
 .menu-header {
    font-size: 20px;
@@ -302,11 +310,5 @@ img {
 }
 .parallax {
    background-attachment: scroll;
-}
-
-.parallax img {
-   height: 50%;
-   width: 50%;
-   object-fit: contain;
 }
 }
