@@ -266,9 +266,4 @@ img {
   .education {
     padding-right: 65%;
   }
-}
-@media only screen and (max-width: 1366px) {
-  .parallax {
-    background-attachment: scroll;
-  }
 }/*# sourceMappingURL=styles.css.map */
