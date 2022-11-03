@@ -40,6 +40,9 @@
   margin-bottom: 7%;
   background-color: white;
   box-shadow: 0 4px 2px -4px #888888;
+  border-left: 1px solid #d3d3d3;
+  border-right: 1px solid #d3d3d3;
+  border-bottom: 1px solid #d3d3d3;
 }
 
 .about-me, .education, .contact-info {
@@ -265,5 +268,11 @@ img {
   }
   .parallax {
     background-attachment: scroll;
+  }
+  .parallax img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
 }/*# sourceMappingURL=styles.css.map */
