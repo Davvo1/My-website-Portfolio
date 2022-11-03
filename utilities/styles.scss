@@ -31,11 +31,10 @@ $border-color: #D6D9DC;
 .parallax {
 background-image: url(images/forest.jpg);
 min-height: 100%;
-
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
-background-size: cover;
+background-size: cover; 
 /*padding-bottom: 30%;*/
 }
 
@@ -43,7 +42,7 @@ background-size: cover;
 padding-top: 0;
 padding-bottom: 0;
 display: flex;
-justify-content: flex-start;
+justify-content: space-between;
 margin-bottom: 7%;
 background-color: white;
 box-shadow:  0 4px 2px -4px #888888;
@@ -58,8 +57,11 @@ border-bottom: 1px solid #d3d3d3;
 }
 
 .education {
-   padding-left: 3%;
-   padding-right: 30%;
+   padding-right: 34%;
+}
+
+.contact-info {
+   align-self: flex-end;
 }
 
 .about-me a, .education a, .contact-info a {
@@ -229,7 +231,7 @@ img {
 }
 .education {
    padding-left: 3%;
-   padding-right: 50%;
+   padding-right: 30%;
 }
 
 .introduction {
@@ -299,9 +301,6 @@ img {
 
 @media only screen and (min-width: 800px) {
 .education {
-   padding-right: 65%;
-}
-.parallax {
-   background-attachment: scroll;
+   padding-right: 60%;
 }
 }
