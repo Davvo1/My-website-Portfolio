@@ -234,6 +234,9 @@ img {
     font-size: 20px;
     margin: 0;
   }
+  .illustration {
+    padding-top: 5%;
+  }
   .my-skills {
     margin-left: 5%;
     margin-bottom: 3%;
