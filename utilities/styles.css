@@ -45,16 +45,26 @@
   border-bottom: 1px solid #d3d3d3;
 }
 
-.about-me, .education, .contact-info {
-  display: inline-block;
+.dropdown button {
+  width: 40%;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  color: #0476D0;
+  background-color: rgb(254, 248, 248);
 }
 
-.education {
-  padding-right: 34%;
+.dropdown button:hover {
+  background-color: #0476D0;
+  color: rgb(254, 248, 248);
+  box-shadow: 3px 5px 10px rgb(65, 65, 65);
+  transition: 0.15;
 }
 
-.contact-info {
-  align-self: flex-end;
+.dropdown button:active {
+  background-color: #0476D0;
+  opacity: 0.8;
+  transition: 0.15;
 }
 
 .about-me a, .education a, .contact-info a {
@@ -106,13 +116,14 @@ img {
 }
 
 .about-me {
-  padding-left: 2%;
   padding-right: 2%;
+  border-bottom: 1px;
 }
 
 .contact-me {
   text-align: center;
   padding-bottom: 5%;
+  padding-top: 5%;
 }
 
 .socials {
@@ -202,6 +213,7 @@ img {
 }
 
 .form-row button:active {
+  background-color: #0476D0;
   opacity: 0.8;
   transition: 0.15;
 }
@@ -215,7 +227,6 @@ img {
     padding-bottom: 7%;
   }
   .education {
-    padding-left: 3%;
     padding-right: 30%;
   }
   .introduction {

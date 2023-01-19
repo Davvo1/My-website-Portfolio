@@ -51,23 +51,34 @@ border-right: 1px solid #d3d3d3;
 border-bottom: 1px solid #d3d3d3;
 }
 
+.dropdown button {
+   width: 40%;
+   font-size: 16px;
+   border: none;
+   border-radius: 30px;
+      color: #0476D0;
+      background-color: $secondary-background;
+ }
 
-.about-me, .education, .contact-info {
-    display: inline-block;
-}
-
-.education {
-   padding-right: 34%;
-}
-
-.contact-info {
-   align-self: flex-end;
-}
+ .dropdown button:hover {
+   background-color: #0476D0;
+   color: $secondary-background;
+   box-shadow: 3px 5px 10px $own-color;
+   transition: 0.15;
+   }
+   
+ .dropdown button:active {
+      background-color: #0476D0;
+      opacity: 0.8;
+      transition: 0.15; 
+    }
+   
 
 .about-me a, .education a, .contact-info a {
     color: $own-color;
     text-decoration: none;
 }
+
 
 img {
 height: 100%;
@@ -82,7 +93,6 @@ opacity: 95%;
     justify-content: center;
     color: $secondary-background;
  }
- 
 
  .description {
     padding-top: 5%;
@@ -90,9 +100,7 @@ opacity: 95%;
     color: $own-color;
     background-color: $secondary-background;
  }
-
- 
-
+   
 
  .skill-list {
     margin-top: 10%;
@@ -103,10 +111,9 @@ opacity: 95%;
 
 
  .my-skills {
-   padding-top: 2%;
+    padding-top: 2%;
     margin-right: 7%;
     text-align: center;
-
  }
  
 .soft-skills, .other-skills {
@@ -121,14 +128,15 @@ opacity: 95%;
 
 
 .about-me {
-   padding-left: 2%;
    padding-right: 2%;
+   border-bottom: 1px;
 }
 
 
 .contact-me  {
    text-align: center;
    padding-bottom: 5%;
+   padding-top: 5%;
 }
 
 .socials {
@@ -221,6 +229,7 @@ transition: 0.15;
 }
 
  .form-row button:active {
+   background-color: #0476D0;
    opacity: 0.8;
    transition: 0.15; 
  }
@@ -236,7 +245,6 @@ img {
    padding-bottom: 7%;
 }
 .education {
-   padding-left: 3%;
    padding-right: 30%;
 }
 
