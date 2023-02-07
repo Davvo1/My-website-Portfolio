@@ -3,8 +3,8 @@
  <head>
   <meta charset="utf-8">
   <title>Davide Bonardi - Corso HTML e CSS</title>
-  <link rel="stylesheet" href="utilities/styles.css"/>
-  <link rel="icon" type="image/x-icon" href="utilities/images/favicon.ico"> 
+  <link rel="stylesheet" href="assets/styles.css"/>
+  <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico"> 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial scale=1.0">
   <meta property="og:title" content="Davide Bonardi - Corso HTML e CSS" />
@@ -29,10 +29,10 @@
       <div class="container-fluid my-name">
       <div class="row">
       <div class="col-md-6 col-sm-12 my-pic"> 
-        <img src="utilities/images/mypic.jpeg">
+        <img src="assets/images/mypic.jpeg" alt="Davide Bonardi, Full stack development student">
           </div>
           <div class="col-md-6 col-sm-12 introduction">
-            <h2>Davide Bonardi</h2>
+            <h1>Davide Bonardi - Full Stack Development Student</h1>
           </div>
 
     </div>
@@ -72,7 +72,7 @@
   </div>
     </ul>
     <div class="col-md-6 col-sm-12 illustration">
-      <img src="utilities/images/programming-man.png">
+      <img src="assets/images/programming-man.png" alt="full stack developer, student, programmer">
    </div>
   </div>
  </div>
@@ -83,43 +83,44 @@
 
   <div class="socials">
   <div class="linkedin">
-  <a href="https://www.linkedin.com/in/davide-bonardi-72a4bb1b1/" target="_blank" rel="noopener"><img src="utilities/images/linkedin.svg"/></a>
+  <a href="https://www.linkedin.com/in/davide-bonardi-72a4bb1b1/" target="_blank" rel="noopener"><img src="assets/images/linkedin.svg" alt="linkedin Davide Bonardi"/></a>
   </div>
   <div class="instagram">
-  <a href="https://www.instagram.com/de.bona_/" target="_blank" rel="noopener"><img src="utilities/images/instagram.svg"/></a>
+  <a href="https://www.instagram.com/de.bona_/" target="_blank" rel="noopener"><img src="assets/images/instagram.svg" alt="instagram Davide Bonardi"/></a>
   </div>
   <div class="github">
-    <a href="https://github.com/Davvo1" target="_blank" rel="noopener"><img src="utilities/images/github.svg"></a>
+    <a href="https://github.com/Davvo1" target="_blank" rel="noopener"><img src="assets/images/github.svg" alt="github Davvo1 Davide Bonardi"></a>
   </div>
   </div>
 </div>
 
  <div class="contact-me colored-page parallax" id="contact-me">
 <div  class="get-contacted">
-  <h3>...or fill up below to get contacted!</h3>
+  <h3 id="get-contacted">...or fill up below to get contacted!</h3>
 </div>
 <form action='' method='get' class='speaker-form'>
 
 <div class='form-row'>
   <label for='full-name'></label>
-  <input id='full-name' name='full-name' type='text' placeholder="Your Name"/>
+  <input id='full-name' name='full-name' type='text' placeholder="Your Name" required/>
 </div>
 
 <div class="form-row">
   <label for="email"></label>
-  <input id="email" name="email" type="email" placeholder="youremail@example.com"/>
+  <input id="email" name="email" type="email" placeholder="youremail@example.com" required/>
 </div>
 
 <div class="form-row">
   <label for="abstract"></label>
-<textarea id="abstract" name="abstract" placeholder="Leave useful info here..."></textarea>
+<textarea id="abstract" name="abstract" placeholder="Specify availability and other useful information here..." required></textarea>
 </div>
 
 <div class="form-row">
-  <button>Submit</button>
+  <button id="submit">Submit</button>
 </div>
 </form>
  </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="assets/script.js"></script>
 </html>
