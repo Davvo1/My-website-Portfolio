@@ -67,7 +67,7 @@
   transition: 0.15;
 }
 
-.about-me a, .education a, .contact-info a {
+.about-me a, .education a, .contact-info a, .projects a {
   color: rgb(65, 65, 65);
   text-decoration: none;
 }
@@ -94,7 +94,7 @@ img {
   background-color: rgb(254, 248, 248);
 }
 
-.skill-list {
+.skill-list, .project-list {
   margin-top: 10%;
   text-align: start;
   color: rgb(65, 65, 65);
@@ -108,6 +108,10 @@ img {
 
 .soft-skills, .other-skills {
   margin-top: 5%;
+}
+
+.projects {
+  margin-left: 3%;
 }
 
 .second-page ul {
