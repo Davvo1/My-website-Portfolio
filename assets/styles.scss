@@ -239,7 +239,16 @@ transition: 0.15;
 
 .success {
    background-color: green;
+   border-radius: 10px;
+   margin-top: 5%;
+   width: 70%;
+   padding: 2%;
+   font-size: 14px;
+   margin-left: 15%;
+   resize: none;
+   color: white;
 }
+
  @media only screen and (min-width: 501px) {
 .menu-header {
    font-size: 20px;

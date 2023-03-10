@@ -22,7 +22,9 @@ function sendMail(e) {
         document.getElementById("email").value = "";
         document.getElementById("message").value = "";
         console.log(res);
-        alert("Your message was sent successfully!");
+        let success = document.querySelector("#success");
+        success.classList.add("success");
+        success.textContent = "Your message was sent succesfully!";
         document.querySelector("form").reset();
       })
       .catch(err => console.log(err));
